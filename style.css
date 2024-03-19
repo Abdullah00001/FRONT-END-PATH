@@ -1,0 +1,25 @@
+body {
+    font-family: "Madimi One", sans-serif;
+
+}
+
+h1 {
+    color: rgb(143, 31, 68);
+    background-color: cadetblue;
+}
+
+p {
+    color: rgb(90, 168, 236);
+    background-color: rgb(54, 17, 3);
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+button {
+    padding: 15px;
+    background-color: rgb(77, 158, 230);
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 16px;
+}

@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearFix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header {
+    background-color: aquamarine;
+    width: 100%;
+}
+
+.mainH {
+    width: 1115px;
+    margin: 0 auto;
+}
+
+.logo {
+    background-color: darkcyan;
+    width: 30%;
+    height: 40px;
+    float: left;
+}
+
+.nav {
+    background-color: darkorchid;
+    width: 70%;
+    height: 40px;
+    float: left;
+}
+
+.c1 {
+    background-color: coral;
+    width: 50%;
+    height: 557px;
+    float: left;
+}
+
+.c2 {
+    background-color: rgb(80, 162, 255);
+    width: 50%;
+    height: 557px;
+    float: left;
+}
+
+.clm1 {
+    background-color: burlywood;
+    width: 372px;
+    height: 400px;
+    float: left;
+}
+
+.clm2 {
+    background-color: rgb(126, 202, 55);
+    width: 372px;
+    height: 400px;
+    float: left;
+}
+
+.clm3 {
+    background-color: rgb(209, 82, 82);
+    width: 371px;
+    height: 400px;
+    float: left;
+}

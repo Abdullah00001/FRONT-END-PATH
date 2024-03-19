@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.wraper{
+    width: 800px;
+    margin: 0 auto;
+}
+.left{
+    height: 200px;
+    width: 200px;
+    background-color: burlywood;
+    float: left;
+}
+.right{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(107, 189, 138);
+    float: right;
+}
+.footer{
+    background-color: aqua;
+    width: 800px;
+    height: 200px;
+    margin: 0 auto;
+}
