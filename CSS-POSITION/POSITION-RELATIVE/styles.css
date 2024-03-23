@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    bottom: -500px;
+    right: -600px;
+    left: 200px;
+    top: 200px;
+}
+
+.box,.circle {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(235, 235, 40);
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.circle {
+    border-radius: 50%;
+}
