@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #ddd;
+    width: 1115px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    /* gap: 2em; */
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: rgb(30, 255, 0);
+}
+
+.blue {
+    background-color: rgb(30, 89, 250);
+}

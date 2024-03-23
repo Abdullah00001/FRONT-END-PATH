@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    /* width: 1115px; */
+    display: grid;
+    grid-template-columns: 371px 371px 371px;
+    grid-template-rows: 200px 300px 300px;
+    gap: 5px;
+    justify-content: center;
+}
+
+.item1 {
+    background-color: #401F71;
+}
+
+.item2 {
+    background-color: #BE7B72;
+}
+
+.item3 {
+    background-color: #FDAF7B;
+}
