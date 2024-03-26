@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    width: 600px;
+    font-size: 20px;
+}
+ol{
+    list-style-type: decimal-leading-zero;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+ol li{
+    margin: 10px;
+    color: lightcoral;
+}
+ol ol{
+    list-style-type: upper-alpha;
+}
+ol ol li{
+    color: lightgreen;
+}
+ol ol ol{
+    list-style-type: upper-roman;
+}
+ol ol ol li{
+    color: lightseagreen;
+}
+li::marker{
+    color: lightslategray;
+}

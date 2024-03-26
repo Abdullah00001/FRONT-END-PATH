@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100vh;
+    width: 100vw;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    background-color: rgb(10, 6, 1);
+}
+
+nav {
+    width: 100%;
+    background-color: lightgreen;
+    height: 65px;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.container {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+/*====================================
+=========BRAND SECTION START==========
+=====================================*/
+.brand-section {
+    display: flex;
+    align-items: center;
+}
+
+.brand-logo {
+    margin-right: 1rem;
+}
+
+.brand-logo span {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.brand-title a {
+    text-decoration: none;
+    color: #fff;
+}
+/*====================================
+=========BRAND SECTION END==========
+=====================================*/
+
+/*====================================
+=====MAIN MENU SECTION START==========
+=====================================*/
+
+.main-menu{
+    display: flex;
+    margin-left: 2rem;
+}
+.main-menu a,.right-menu a{
+    display: inline-block;
+    margin-right: 1rem;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.main-menu a:hover{
+    text-decoration: underline;
+    color: rgb(18, 150, 231);
+}
+/*====================================
+=====MAIN MENU SECTION END==========
+=====================================*/
+
+/*====================================
+=====RIGHT MENU SECTION START==========
+=====================================*/
+.right-menu{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.right-menu a:hover{
+    text-decoration: underline;
+    color: rgb(18, 150, 231);
+}
+
+.right-menu button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+.right-menu button span{
+    font-size: 2rem;
+}
+
+/*====================================
+=====RIGHT MENU SECTION END==========
+=====================================*/
+
+/*====================================
+=====RIGHT MENU SECTION END==========
+=====================================*/
+
+.drop-down{
+    position: relative;
+    
+}
+.drop-down:hover .dropDown-items{
+display: block;
+}
+.drop-down>.dropDown-items{
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 5px 8px 0 black;
+    width: 200px;
+    border-radius: 15px;
+    display: none;
+}
+.dropDown-item-ul{
+    list-style: none;
+}
+
+.dropDown-item-li{
+    padding: 10px;
+    text-align: center;
+}
+.dropDown-item-li:hover{
+    background-color: blanchedalmond;
+    border-radius: 15px;
+}
+.dropDown-item-li a{
+    color: black;
+    font-size: 0.rem;
+    font-weight: bold;
+    letter-spacing: normal;
+}
+.divider{
+    border: none;
+    border-bottom: 1px solid lightgreen;
+}
