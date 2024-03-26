@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: aquamarine;
+    background-image: url(https://cdn.pixabay.com/photo/2023/11/08/23/57/flower-8376030_1280.jpg);
+    background-repeat: no-repeat center fixed;
+    background-size: cover;
+}
