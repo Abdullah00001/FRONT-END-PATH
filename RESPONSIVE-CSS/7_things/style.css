@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img-fluid{
+    width: 100%;
+}
+.center{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.fluid{
+    width: 100%;
+}
+.img-lg{
+    width: 75%;
+}
+.img-md{
+    width: 50%;
+}
+
+.img-sm{
+    width: 35%;
+}
+.img-es{
+    width: 25%;
+}
+

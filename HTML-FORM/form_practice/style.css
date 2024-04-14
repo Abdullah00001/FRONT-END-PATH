@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.container {
+  width: 800px;
+  min-height: 300px;
+  background-color: #e8efcf;
+  margin-top: 20px;
+  box-shadow: 0 1px 5px #31363f;
+  border-radius: 10px;
+}
+
+.formHeader {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+  background-color: #dff5ff;
+  padding: 1rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0 1px 3px #5ea57e;
+}
+
+.formHeader h1 {
+  font-size: 40px;
+  /* color: #5BBCFF;
+    text-shadow: 1px 0px 8px #4CCD99,0px 1px 8px #FFF455; */
+}
+
+form {
+  margin-top: 20px;
+  width: 100%;
+  padding: 16px 32px;
+}
+
+.formInline {
+  margin-top: 16px;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formGroup {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.formGroup > label {
+  display: block;
+  font-size: 1.5rem;
+}
+
+.formGroup input[type="text"],
+.formGroup input[type="email"],
+.formGroup input[type="tel"],
+.formGroup select {
+  width: 100%;
+  padding: 1rem;
+  outline: none;
+  border: 1px solid #f5e8dd;
+  margin-top: 0.5rem;
+  border-radius: 1rem;
+}

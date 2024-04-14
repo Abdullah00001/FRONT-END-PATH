@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: "Roboto", sans-serif;
+    background-color: #BBC3A4;
+}
+.center{
+    margin: 0 auto;
+}
+nav{
+    width: 100%;
+    height: 65px;
+    background-color: #2C7865;
+}
+
+.container{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.brand-section{
+    display: flex;
+    align-items: center;
+}
+.brand-logo{
+    margin-right: 1.2rem;
+}
+
+.brand-logo span{
+    font-size: 2.5rem;
+}
+.brand-name a{
+    text-decoration: none;
+    color: #FFF7FC;
+}
+
+/* ======================================== */
+
+.menu-section{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.menu-section a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #FFF7FC;
+    margin-right: 1rem;
+    transition: 0.5s ease-in;
+    letter-spacing: 2px;
+}
+.menu-section a:hover{
+    color: #E6B9DE;
+    text-shadow: 3px 8px 8px #FF9843;
+}
+
+.menu-section button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #FFF7FC;
+}
+.menu-section button>span{
+    font-size: 2.5rem;
+}
+/* =================================================== */
+.drop-down{
+    position: relative;
+}
+.drop-down:hover .dropdown-items{
+    display: block;
+}
+.drop-down>.dropdown-items{
+    position: absolute;
+    right: 0;
+    background-color: #176B87;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 2px 5px 8px #E5D4FF;
+    display: none;
+}
+.dropdown-ul{
+    list-style-type: none;
+}
+.dropdown-li{
+    padding: 10px;
+    text-align: center;
+    transition:all 1s ease-out;
+}
+.dropdown-li:hover{
+    background-color: #85586F;
+    border-radius: 5px;
+}
+.dropdown-li a{
+    color: #FDF0D1;
+    font-size: 1rem;
+    font-weight: bold;
+    text-shadow: none;
+    letter-spacing: normal;
+}
+.divider{
+    border: none;
+    border-bottom: 1px solid #9ADE7B;
+}
+/* ============================= */
+.main-section{
+    width: 70%;
+}
+.main-section h1{
+    text-align: center;
+    margin-top: 50%;
+}

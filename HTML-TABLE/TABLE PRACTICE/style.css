@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  width: 1150px;
+  min-height: 200px;
+  background-color: #e5e483;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 3px 5px 8px #aad9bb;
+}
+.table{
+    width: 100%;
+}
+.table caption {
+  text-shadow: 1px 0px 12px #96efff, 0px 1px 12px #96efff;
+}
+.table,
+.table th,
+.table td {
+  border: 1px solid #365486;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  text-align: center;
+  padding: 8px;
+}
