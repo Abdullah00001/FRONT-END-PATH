@@ -1,0 +1,19 @@
+[
+    {
+       "username": "Spsujoy",
+       "age": 55,
+       "hobbies": [
+        {
+            
+        }
+       ]
+    },
+   {
+       "username": "rahul",
+       "age": 65
+    },
+   {
+       "username": "abdullah",
+       "age": 10
+    }
+]

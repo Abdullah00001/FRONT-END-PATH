@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+<body>
+  <input class="amnt" type="number" placeholder="amount" />
+  <span class="output"></span>
+  <button class="btn">Withdraw</button>
+
+  <script>
+    const balance = 50000;
+
+    document.querySelector(".btn").addEventListener("click", function () {
+      let amount = parseInt(document.querySelector(".amnt").value);
+      let output = document.querySelector(".output");
+
+      if (!isNaN(amount) && amount > 0) {
+        if (amount <= balance) {
+          balance -= amount;
+          output.innerText =
+            "Withdrawn amount: " + amount + ". Remaining balance: " + balance;
+        } else {
+          output.innerText = "Insufficient balance.";
+        }
+      } else {
+        output.innerText = "Please enter a valid amount.";
+      }
+    });
+  </script>
+</body>
+</html>
